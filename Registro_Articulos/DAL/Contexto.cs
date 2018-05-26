@@ -10,7 +10,7 @@ namespace Registro_Articulos.DAL
 {
    public class Contexto : DbContext
     {
-        public DbSet <Articulo> Articulos { get; set; }
+        public DbSet<Articulo> Articulo { get; set; }
         public Contexto() : base("Constr")
         {       }
     }
