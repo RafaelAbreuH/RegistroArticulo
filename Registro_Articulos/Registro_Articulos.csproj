@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\Articulo.cs" />
     <Compile Include="Mainform.cs">
       <SubType>Form</SubType>

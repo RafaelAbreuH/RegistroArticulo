@@ -14,5 +14,14 @@ namespace Registro_Articulos.Entidades
         public float Precio { get; set; }
         public int Existencia { get; set; }
         public int CantidadCotizada { get; set; }
+
+        public Articulo()
+        {
+            ArticuloId = 0;
+            Descripcion = string.Empty;
+            Precio = 0;
+            Existencia = 0;
+            CantidadCotizada = 0;
+        }
     }
 }
